@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: radial-gradient( #535086d5, #6c757dad),url(../src/assets/pic1.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 100vh; 
+}
+form {
+  border-radius: 20px;
+}
+#main-Div {
+  border-radius: 20px;
+  overflow: auto;
+  height: 400px;
+  background-color: rgba(102, 64, 135, 0.279);
+  box-shadow:2px 2px 5px 4px rgba(43, 40, 40, 0.548);
+}
+#addBtn{
+  background-color: rgb(102, 64, 135);
+  color: aliceblue;
+}
+#items{
+  background-color: rgb(102, 64, 135);
+}
